@@ -23,5 +23,13 @@ if(mm<10){
 var dataSt = mm+""+dd+""+yyyy+""+hh+""+min+""+sec;
 
 
+var player1 = document.getElementsByName("player1");
+var player2 = document.getElementsByName("player2");
+
+
+
+var uri1 = urlbase + "?nameStartsWith=" + player1 + "&ts=" + dataSt + "&apikey=" + apikey + "&hash=" + hashStr;
+
+
 
 }
