@@ -25,8 +25,10 @@ var apikey = "62cc7f7bd41e3346a1af737e0449428b";
 
 		var player1 = document.getElementById("player1");
 		var player2 = document.getElementById("player2");
-		
-		console.log("player1:" + player1);
+	
+		var crypto  = require('crypto');
+		var preHash = dataSt + privatekey + apikey;
+		var hashStr = crypto.createHash('md5').update(preHash).digest('hex');
 
 		var uri1 = urlbase + "?nameStartsWith=" + player1 + "&ts=" + dataSt + "&apikey=" + apikey + "&hash=" + hashStr;
 
