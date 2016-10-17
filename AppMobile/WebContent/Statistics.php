@@ -19,10 +19,12 @@
 	<div class="main">
 
 		<div class="head">
-			<img class="logo" src="..\img\marvellogo.png" alt="logo" />
+            <a href = "home.html"><img class="logo" src="..\img\marvellogo.png" alt="logo" /></a>
 		</div>
         
-        <p id="teste"></p>
+        <p id="resultado"></p>
+        
+        
 
 
 
