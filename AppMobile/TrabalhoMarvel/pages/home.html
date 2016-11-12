@@ -2,12 +2,13 @@
 <html>
     <head>
     <meta charset="ISO-8859-1">
-    <link href="..\css\style.css" rel="stylesheet">
+        <link href="..\css\style.css" rel="stylesheet">
+        <link href="..\css\bootstrap.css" rel="stylesheet">
     </head>
     <body>
-        <div class="main">
+        <div class="main" >
 
-            <div class="head">
+            <div>
                 <img class="logo" src="..\img\marvellogo.png" alt="logo" />
             </div>
             
@@ -21,10 +22,11 @@
                     <option value="Hulk">Hulk</option>
                     <option value="Thor">Thor</option>
                     <option value="Iron%20Man">Iron Man</option>
-                </select> <br /> <br /> <br /> <br /> 
+                </select> <br /> <br />
+                
 
                 
-                <button class="btn">FIGHT!</button>
+                <button class="btn">FIGHT!</button> <br /> 
                 
                 
                 <div class="play">
@@ -38,7 +40,32 @@
                     <option value="Red%20Skull">Caveira Vermelha</option>
                 </select>
             </form>
-
+            
+           <form  method="post" action="playerfile.php">
+                <div class="play-cons">
+                    <img class="player-icon-cons" src="..\img\search.png" alt="player" />
+                    <h3 class="p-name-cons">Consulta</h3>
+                </div>
+               <br>
+                <select class="pick-cons" name="player1File">
+                    <option value="Captain%20America">Capitao America</option>
+                    <option value="Hulk">Hulk</option>
+                    <option value="Thor">Thor</option>
+                    <option value="Iron%20Man">Iron Man</option>
+                    <option value="Ultron">Ultron</option>
+                    <option value="Thanos">Thanos</option>
+                    <option value="Loki">Loki</option>
+                    <option value="Red%20Skull">Caveira Vermelha</option>
+                </select>
+                
+               <br> <br>
+                
+                <button class="btn">PICK FILE</button>
+            </form>
+            
+            
+            
+            
         </div>
         
     </body>
