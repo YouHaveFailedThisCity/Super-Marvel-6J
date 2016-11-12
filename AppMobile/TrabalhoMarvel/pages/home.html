@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="ISO-8859-1">
+        <link href="..\css\style.css" rel="stylesheet">
+        <link href="..\css\bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main" >
+
+            <div>
+                <img class="logo" src="..\img\marvellogo.png" alt="logo" />
+            </div>
+            
+            <form  method="post" action="statistics.php">
+                <div class="play">
+                    <img class="player-icon" src="..\img\player.jpg" alt="player" />
+                    <h3 class="p-name">Player 1</h3>
+                </div>
+                <select class="pick" name="player1">
+                    <option value="Captain%20America">Capitao America</option>
+                    <option value="Hulk">Hulk</option>
+                    <option value="Thor">Thor</option>
+                    <option value="Iron%20Man">Iron Man</option>
+                </select> <br /> <br />
+                
+
+                
+                <button class="btn">FIGHT!</button> <br /> 
+                
+                
+                <div class="play">
+                    <img class="player-icon" src="..\img\player.jpg" alt="player" />
+                    <h3 class="p-name">Player 2</h3>
+                </div>
+                <select class="pick" name="player2">
+                    <option value="Ultron">Ultron</option>
+                    <option value="Thanos">Thanos</option>
+                    <option value="Loki">Loki</option>
+                    <option value="Red%20Skull">Caveira Vermelha</option>
+                </select>
+            </form>
+            
+           <form  method="post" action="playerfile.php">
+                <div class="play-cons">
+                    <img class="player-icon-cons" src="..\img\search.png" alt="player" />
+                    <h3 class="p-name-cons">Consulta</h3>
+                </div>
+               <br>
+                <select class="pick-cons" name="player1File">
+                    <option value="Captain%20America">Capitao America</option>
+                    <option value="Hulk">Hulk</option>
+                    <option value="Thor">Thor</option>
+                    <option value="Iron%20Man">Iron Man</option>
+                    <option value="Ultron">Ultron</option>
+                    <option value="Thanos">Thanos</option>
+                    <option value="Loki">Loki</option>
+                    <option value="Red%20Skull">Caveira Vermelha</option>
+                </select>
+                
+               <br> <br>
+                
+                <button class="btn">PICK FILE</button>
+            </form>
+            
+            
+            
+            
+        </div>
+        
+    </body>
+</html>
