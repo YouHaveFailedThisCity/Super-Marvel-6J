@@ -36,7 +36,6 @@ body {
 .btn {
 	border-radius: 5px;
 	width: 150px;
-	height: 30px;
 	margin-left: 60px;
 	background-color: red;
 	font-weight: bolder;
@@ -111,19 +110,52 @@ body {
 
 
 #resultado {
-     text-align: center;
+    text-align: center;
     background-color: white;
+	padding-bottom: 15px;
     width: 260px;
-    padding: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+	opacity: 0.9;
 }
 
+
+#resultado-heroi {
+    background-color: white;
+    width: 350px;
+	margin-top: 10px;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+
+#resultado-heroi th img {
+	margin-left: -120px;
+}
+
+#resultado-heroi th h3 {
+	margin-left: -120px;
+}
+
+
 #resultado-table {
-    text-align: center;    
+    text-align: center;	
     border: 10px;
     background-color: white;
     padding: 5px;
-    height:100px;
     width: 260px;
+	border-radius: 5px;
+	margin-top: 10px;
+	opacity: 0.9;
+}
+
+#resultado-table table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#resultado-table th {
+	color: red;
+	padding: 2px;
 }
 
 #copyright{
